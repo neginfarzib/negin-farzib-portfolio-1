@@ -1,0 +1,74 @@
+.top-border {
+  border-top: 30px solid #5548a1; 
+} 
+
+#blog-post-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+   width: 70%;
+   margin: 0 auto;
+}
+
+.blog-thumbnail {
+   display: flex;
+   flex-direction: column;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   overflow: hidden;
+   width: 300px;
+   margin: 1rem auto;
+   padding: 1rem;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.blog-thumbnail img {
+   object-fit: cover;
+}
+
+.blog-thumbnail h4 {
+   margin: 0 0 0.5rem;
+}
+
+.blog-thumbnail p {
+   font-size: 0.9rem;
+   color: #555;
+}
+
+.blog-thumbnail a {
+   color: black;
+   text-decoration: none;
+   font-size: 0.9rem;
+   font-weight: bold;
+}
+
+
+.row {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin: 0 auto;
+   flex-direction: row;
+   background-color: #070A29;
+}
+
+.row h1{
+    font-family:'Edu SA Hand', cursive;
+    font-size: 5rem;
+    color: aliceblue;
+}
+.row p{
+    font-family:'Edu SA Hand', cursive;
+    font-size: 1.1em;
+    color: aliceblue;
+}
+
+.column{
+    margin: 2%;
+    width: 30%;
+}
+.hero-image{
+    width: 500px;
+}
