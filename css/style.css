@@ -2,7 +2,7 @@
   border-top: 30px solid #5548a1; 
 } 
 
-#blog-post-container{
+#thumb-container{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -12,7 +12,7 @@
    margin: 0 auto;
 }
 
-.blog-thumbnail {
+.thumbnail-image{
    display: flex;
    flex-direction: column;
    border: 1px solid #ccc;
@@ -71,4 +71,8 @@
 }
 .hero-image{
     width: 500px;
+}
+
+body {
+  font-family:'Edu SA Hand', cursive ;
 }
