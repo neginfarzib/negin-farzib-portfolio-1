@@ -43,9 +43,11 @@
    font-size: 0.9rem;
    font-weight: bold;
 }
+ .fa.fa-github {
+   font-size:24px
+   }
 
-
-.row {
+.row-hero {
    display: flex;
    width: 100%;
    justify-content: center;
@@ -54,12 +56,12 @@
    background-color: #070A29;
 }
 
-.row h1{
+.row-hero h1{
     font-family:'Edu SA Hand', cursive;
     font-size: 5rem;
     color: aliceblue;
 }
-.row p{
+.row-hero p{
     font-family:'Edu SA Hand', cursive;
     font-size: 1.1em;
     color: aliceblue;
@@ -75,4 +77,12 @@
 
 body {
   font-family:'Edu SA Hand', cursive ;
+}
+
+.row-read-git{
+   display: flex;
+   margin:0 3px ;
+   flex-direction: row;
+   justify-content: space-between;
+   text-align: center;
 }
